@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.bg-color {
+  background-color: #5b0017;
+
+}
+.header-top{
+  background-color: #5b001792;
+}
+
+.btn-2 {
+  color: #5b0017;
+  font-family: "Lato", sans-serif;
+  height: 40px;
+  border: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  right: 50px;
+  transition: all 0.3s linear;
+}
+
+.btn-2:hover {
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+
+.img1 {
+  position:absolute;
+  width: 25px;
+  left:100%;
+  z-index: 2;
+
+}
+.hero-sec{
+  background-image: url('../img/Rectangle.png');
+  background-repeat: no-repeat;
+  height: 93vh;
+  background-size: contain;
+  position: relative;
+}
+.hero-sec-2{
+  background-image: url('../img/Rectangle.png');
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  background-position: right;
+  margin-top: 50px;
+
+}
+
+
+.section-heading-2{
+  background-color: #5b001794;
+  color: #fff;
+  font-size: 70px;
+  width: 100%;
+  white-space: nowrap;
+  font-weight: 300;
+  background-image: url('../img/Rectangle\ 950.png');
+  background-size: cover;
+  margin-top: 228px;
+  margin-left: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+
+ 
+}
+.section-img{
+  /* position: fixed; */
+  bottom: 170px;
+  /* right: 350px; */
+  z-index: -9;
+  position: absolute;
+  right: 345px;
+}
+.btn-3 {
+  color: #cc9d2f;
+  font-family: "Lato", sans-serif;
+  background-color: transparent;
+ 
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 5px;
+  right: 50px;
+  transition: all 0.3s linear;
+}
+
+.btn-3:hover{
+  transform: translateY(-10px);
+}
+.victor-img{
+  margin-top: 90px;
+  width: 70px;
+}
+.section2{
+ margin-bottom: 40px;
+}
+.victor-img2{
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.section-title{
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+}
+.section-btn-2{
+  color: #5b0017;
+  font-family: "Lato", sans-serif;
+  height: 40px;
+  border: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  right: 50px;
+  transition: all 0.3s linear;
+}
+.section-btn-2:hover{
+  transform: translateY(-10px);
+}
+.section-3{
+ padding-block: 40px;
+}
+.box-2{
+  height: 500px;
+  background-color: #cc9d2f;
+  margin-top: 50px;
+}
+
+.sec-content{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+
+}
+
+.icon-1{
+  margin-bottom: 90px;
+}
+.back-img{
+  background-image: url('../img/biriyani.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+  height: 600px;
+}
+/* .back-color{
+  background-color: #5b001775 !important;
+  position: absolute;
+  z-index: 9999 !important;
+} */
+ .back-img::after{
+  content: "";
+  position: absolute;
+  background-color: #5b0017;
+  z-index: 999;
+ }
+.content{
+
+  font-size: 60px;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.absolute{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.absolute1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-btn-4{
+  padding: 10px;
+  border: none;
+
+
+  transition: all 0.2s linear;
+}
+.section-btn-4:hover{
+  transform: translateY(-10px);
+}
+
+.footer-sec{
+  background-color: #cc9d2f;
+}
+.section-btn-5{
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  transition: all 0.2s linear;
+  margin-top: 50px;
+  
+}
+.section-btn-5:hover{
+  transform: translateY(-10px);
+}
+.footer-nav{
+  color: #5b0017;
+  margin-top: 40px;
+}
+.line{
+  border-top: 1px solid #243054;
+}
+.footer-icon{
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+.footer-icon i:hover{
+    transform: translateY(-10px);
+}
+.out{
+  position: relative;
+}
+.in{
+ position: absolute;
+ right: 0;
+}
+.line-2{
+  height: 3px;
+  width: 50%;
+  margin-top: 50px;
+  background-color: #cc9d2f;
+}
+.full{
+  position: fixed;
+  top: 0;
+  background-color: #000000;
+  /* opacity: .5; */
+  width: 100%;
+  height: 100vh;
+  margin-top: 120px;
+
+}

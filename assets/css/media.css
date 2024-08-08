@@ -1,0 +1,36 @@
+@media (max-width:1200px) {
+    .section-img{
+        display: none;
+    }
+    .img-3{
+        display: flex ;
+        justify-content: center;
+    }
+}
+@media (max-width:768px) {
+    .section-heading-2{
+        font-size: 45px !important;
+        white-space: wrap !important;
+        width: 0 !important;
+    }
+    .footer-nav{
+        gap: 20px !important;
+    }
+    .back-img{
+        height: 100% !important;
+    }
+    .content{
+        font-size: 45px !important;
+    }
+}
+@media (max-width:576px) {
+    
+    .footer-nav{
+       flex-direction: column !important;
+       padding: 0;
+       align-items: center !important;
+    }
+    .line-1{
+        justify-content: center;
+    }
+}
